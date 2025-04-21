@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Deploy
 on: [push]
 
 jobs:
@@ -6,12 +6,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       
-      - name: Inject Token
+      - name: Inject EXACT Token
         run: |
-          sed -i "s/process.env.API_TOKEN/'${{ secrets.API_TOKEN }}'/g" gallery.js
-
+          sed -i "s/__API_TOKEN__/${{ secrets.API_TOKEN }}/g" gallery.js
+          
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
