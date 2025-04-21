@@ -7,12 +7,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Replace API Token
+      
+      - name: Inject Token
         run: |
-          sed -i 's/__API_TOKEN__/${{ secrets.API_TOKEN }}/g' gallery.js
+          sed -i "s/process.env.API_TOKEN/'${{ secrets.API_TOKEN }}'/g" gallery.js
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./  # Deploys root files
+          publish_dir: ./
