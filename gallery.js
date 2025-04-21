@@ -1,6 +1,6 @@
 import { HfInference } from 'https://cdn.jsdelivr.net/npm/@huggingface/inference@2.6.1/+esm';
 
-const API_KEY = "__API_TOKEN__"; 
+const API_TOKEN = "__API_TOKEN__"; 
 console.log("SCRIPT LOADED!"); 
 const hf = new HfInference(API_TOKEN);
 
