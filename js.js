@@ -1,35 +1,32 @@
 
 const animalCategories = [
-    // Mammals
-  "lion", "tiger", "elephant", "giraffe", "zebra",
-  "wolf", "fox", "bear", "panda", "kangaroo",
-  "koala", "gorilla", "chimpanzee", "orangutan", "hippopotamus",
-  "polar bear", "cheetah", "leopard", "hyena",
-  "camel", "buffalo", "bison", "deer", "moose",
-  "dolphin", "whale", "shark", "octopus", "seal",
+   // Space & Astronomy
+  "Sun", "Moon", "Mars", "Jupiter", "Black Hole", 
+  "Milky Way", "Astronaut", "Rocket", "Satellite", "Meteor",
 
-  // Birds
-  "eagle", "hawk", "falcon", "owl", "parrot",
-  "penguin", "peacock", "flamingo", "swan", "ostrich",
-  "vulture", "pigeon", "crow", "raven", "woodpecker",
+  // Earth & Nature
+  "Volcano", "Rainbow", "Tornado", "Aurora", "Ocean", 
+  "Desert", "Rainforest", "Glacier", "Cave", "Waterfall",
 
-  // Reptiles & Amphibians
-  "crocodile", "alligator", "snake", "python", "cobra",
-  "turtle", "tortoise", "frog", "toad", "salamander",
-  "iguana", "chameleon", "komodo dragon", "gecko",
+  // Science & Technology
+  "Robot", "AI", "Dinosaur", "Fossil", "Electricity", 
+  "Magnet", "Laser", "Hologram", "3D Printing", "Nanotechnology",
 
-  // Fish & Aquatic
-  "clownfish", "goldfish", "salmon", "tuna", "swordfish",
-  "jellyfish", "starfish", "stingray", "eel", "piranha",
-  "seahorse", "lobster", "crab", "shrimp", "fish",
+  // Human Body & Health
+  "Brain", "Heart", "DNA", "Vaccine", "Skeleton", 
+  "Muscle", "Microscope", "X-ray", "Bacteria", "Virus",
 
-  // Insects & Arthropods
-  "butterfly", "bee", "ant", "spider", "scorpion",
-   "dragonfly", "mosquito", "cockroach", "grasshopper",
+  // History & Culture
+  "Pyramid", "Dinosaur", "Knight", "Samurai", "Viking", 
+  "Castle", "Treasure", "Mummy", "Pirate", "Time Travel",
 
-  // Domestic Animals
-  "dog", "cat", "horse", "sheep",
-  "goat", "pig", "rabbit", "hamster", "guinea pig",
+  // Fun & Curiosities
+  "Unicorn", "Dragon", "Superhero", "Robot", "Time Machine", 
+  "Magic", "Treasure", "Ghost", "Alien", "Hologram",
+
+  // Everyday Wonders
+  "Chocolate", "Pizza", "Ice Cream", "Bubble Gum", "Fireworks", 
+  "Balloon", "Lego", "Video Game", "Animation", "Comic Book"
 
   // Mythical/Extinct
   "dragon", "unicorn", "dinosaur", "mammoth", "sabertooth" , "animal"
