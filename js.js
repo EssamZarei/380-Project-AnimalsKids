@@ -26,7 +26,7 @@ const animalCategories = [
 
   // Everyday Wonders
   "Chocolate", "Pizza", "Ice Cream", "Bubble Gum", "Fireworks", 
-  "Balloon", "Lego", "Video Game", "Animation", "Comic Book"
+  "Balloon", "Lego", "Video Game", "Animation", "Comic Book",
 
   // Mythical/Extinct
   "dragon", "unicorn", "dinosaur", "mammoth", "sabertooth" , "animal"
