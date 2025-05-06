@@ -274,45 +274,98 @@ header p {
   }
 }
 
-/* Animal Detector Link Styling */
-.animal-detector-link {
-  margin: 40px auto;
+
+
+
+
+
+
+
+
+/* Animal Detector Container */
+.animal-detector-container {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 35px 25px;
+  border-radius: 25px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  width: 90%;
+  max-width: 600px;
   text-align: center;
-  width: 100%;
-  max-width: 860px;
+  margin: 40px auto;
+  transition: box-shadow 0.4s ease;
+  border: 2px dashed #a29bfe;
 }
 
-.animal-detector-link a {
+.animal-detector-container:hover {
+  box-shadow: 0 15px 40px rgba(162, 155, 254, 0.2);
+}
+
+/* Title */
+.animal-detector-title {
+  font-size: 30px;
+  color: #6c5ce7;
+  margin-bottom: 15px;
+  text-shadow: 2px 2px #f8c8ff;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+/* Description */
+.animal-detector-description {
+  font-size: 18px;
+  color: #6c5ce7;
+  margin-bottom: 25px;
+  line-height: 1.5;
+}
+
+/* Button */
+.animal-detector-btn {
   display: inline-block;
-  padding: 16px 32px;
-  font-size: 20px;
+  padding: 14px 24px;
+  font-size: 17px;
   font-weight: bold;
-  text-decoration: none;
-  color: white;
-  background: linear-gradient(to right, #a29bfe, #ff9ff3);
+  border: none;
   border-radius: 14px;
+  background: linear-gradient(to right, #a29bfe, #ff9ff3);
+  color: white;
+  cursor: pointer;
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
-  border: 2px solid rgba(255, 255, 255, 0.3);
+  text-decoration: none;
+  margin-top: 10px;
 }
 
-.animal-detector-link a:hover {
+.animal-detector-btn:hover {
   background: linear-gradient(to right, #ffb6f2, #a29bfe);
   transform: scale(1.08);
   box-shadow: 0 0 15px rgba(162, 155, 254, 0.6);
-  color: #f8edff;
 }
 
-/* Mobile Responsive for Animal Detector Link */
+.emoji {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.animal-detector-btn:hover .emoji {
+  transform: rotate(20deg) scale(1.2);
+}
+
+/* Mobile Responsive */
 @media (max-width: 480px) {
-  .animal-detector-link {
+  .animal-detector-container {
+    padding: 25px 15px;
     margin: 30px auto;
-    padding: 0 20px;
   }
   
-  .animal-detector-link a {
-    padding: 14px 24px;
-    font-size: 18px;
-    width: 100%;
+  .animal-detector-title {
+    font-size: 26px;
+  }
+  
+  .animal-detector-description {
+    font-size: 16px;
+  }
+  
+  .animal-detector-btn {
+    padding: 12px 20px;
+    font-size: 16px;
   }
 }
