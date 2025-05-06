@@ -273,3 +273,46 @@ header p {
     flex-direction: column;
   }
 }
+
+/* Animal Detector Link Styling */
+.animal-detector-link {
+  margin: 40px auto;
+  text-align: center;
+  width: 100%;
+  max-width: 860px;
+}
+
+.animal-detector-link a {
+  display: inline-block;
+  padding: 16px 32px;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  background: linear-gradient(to right, #a29bfe, #ff9ff3);
+  border-radius: 14px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.animal-detector-link a:hover {
+  background: linear-gradient(to right, #ffb6f2, #a29bfe);
+  transform: scale(1.08);
+  box-shadow: 0 0 15px rgba(162, 155, 254, 0.6);
+  color: #f8edff;
+}
+
+/* Mobile Responsive for Animal Detector Link */
+@media (max-width: 480px) {
+  .animal-detector-link {
+    margin: 30px auto;
+    padding: 0 20px;
+  }
+  
+  .animal-detector-link a {
+    padding: 14px 24px;
+    font-size: 18px;
+    width: 100%;
+  }
+}
