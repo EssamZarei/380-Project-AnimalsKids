@@ -1,7 +1,7 @@
 import { HfInference } from 'https://cdn.jsdelivr.net/npm/@huggingface/inference@2.6.1/+esm';
 
 console.log("SCRIPT LOADED!"); 
-const hf = new HfInference("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");
+const hf = new HfInference("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");
 
 let inDetect = document.getElementById("inDetect");
 let h3Detect = document.getElementById("h3Detect");
